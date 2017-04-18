@@ -1,0 +1,31 @@
+root: true
+
+parser: "babel-eslint"
+
+env:
+  es6: true
+  node: true
+  browser: true
+  mocha: true
+
+ecmaVersion: 7
+
+ecmaFeatures:
+  modules: true
+  jsx: true
+  classes: true
+
+extends:
+  "airbnb"
+
+rules:
+  quotes: 0
+  func-names: 0
+  comma-dangle: 0
+  semi: [2, "never"]
+  new-cap: 0
+  react/prefer-stateless-function: 0
+  react/forbid-prop-types: 0
+  react/require-default-props: 0
+  generator-star-spacing: 0
+  no-plusplus: 0

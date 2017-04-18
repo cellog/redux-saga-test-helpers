@@ -1,0 +1,17 @@
+.DS_Store
+*.log
+test
+examples
+coverage
+.idea
+wallaby.js
+.travis.yml
+karma-common.conf.js
+.eslintignore
+.eslintrc
+.codeclimate.yml
+local-test.env
+run-tests.sh
+browserstack.svg
+.babelrc
+.npmignore
